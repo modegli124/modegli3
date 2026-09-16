@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a0d0d">
+  <meta name="description" content="MODEGLI Tools - أدوات مجانية وسريعة تعمل مباشرة من المتصفح">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <title>MODEGLI Tools</title>
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="#" aria-label="MODEGLI Tools">
+    <span class="logo">M</span><span><b>MODEGLI</b><small>Tools</small></span>
+  </a>
+  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#tools">الأدوات</a>
+    <a href="#about">عن MODEGLI</a>
+  </nav>
+  <button class="menu" aria-label="القائمة">☰</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">MODEGLI TOOLS</p>
+    <h1>كل أدواتك المفيدة<br><span>في مكان واحد</span></h1>
+    <p>أدوات مجانية وسريعة تعمل مباشرة من المتصفح، بدون تسجيل.</p>
+    <div class="search-wrap">
+      <span>⌕</span><input id="search" placeholder="ابحث عن أداة..." autocomplete="off">
+    </div>
+    <div class="features">
+      <span>⚡ سريعة</span><span>🛡️ مجانية</span><span>📱 تعمل على الهاتف</span><span>🔒 بدون تسجيل</span>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="screen">
+      <div class="screen-brand"><span class="logo small">M</span> MODEGLI</div>
+      <div class="screen-title">Smart tools.<br><b>Simple life.</b></div>
+      <div class="screen-line"></div><div class="screen-line short"></div>
+    </div>
+  </div>
+</section>
+
+<section id="tools" class="tools-section">
+  <div class="section-head"><p class="eyebrow">TOOLS</p><h2>اختر الأداة التي تريدها</h2><p>مجموعة أدوات عملية لإنجاز مهامك بسهولة.</p></div>
+  <div id="grid" class="grid"></div>
+  <p id="empty" class="empty" hidden>لم نجد أداة بهذا الاسم.</p>
+</section>
+
+<section id="tool-panel" class="panel" hidden>
+  <button id="close-tool" class="close">×</button>
+  <div id="tool-content"></div>
+</section>
+
+<section id="about" class="about">
+  <p class="eyebrow">WHY MODEGLI?</p>
+  <h2>أدوات بسيطة، تجربة واضحة.</h2>
+  <div class="about-grid">
+    <div><b>مجاني</b><span>لا تحتاج إلى اشتراك لاستخدام الأدوات الأساسية.</span></div>
+    <div><b>سريع</b><span>العمليات الأساسية تتم داخل المتصفح.</span></div>
+    <div><b>خصوصية</b><span>لا نطلب إنشاء حساب لاستخدام الأدوات الأساسية.</span></div>
+    <div><b>متوافق</b><span>مصمم أولًا للهاتف ويعمل على الشاشات الكبيرة.</span></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="brand"><span class="logo">M</span><span><b>MODEGLI</b><small>Tools</small></span></div>
+  <p>أدوات ذكية، لحياة أسهل.</p>
+  <div class="social"><a href="https://www.tiktok.com/@modegli" target="_blank" rel="noopener">TikTok</a><a href="https://www.instagram.com/modegli7/" target="_blank" rel="noopener">Instagram</a></div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
